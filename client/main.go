@@ -22,7 +22,7 @@ func main() {
 
 	c := pb.NewGreeterClient(conn)
 
-	resp, err := c.SayHello(context.Background(), &pb.HelloRequest{Name: "Wada"})
+	resp, err := c.SayHello(context.Background(), &pb.HelloRequest{Name: "wdgk"})
 	if err != nil {
 		log.Fatalf("RPC error: %v", err)
 	}
